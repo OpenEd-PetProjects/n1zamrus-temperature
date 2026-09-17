@@ -1,4 +1,4 @@
 .PHONY: test
 
 test:
-	@echo "Здесь пока нет тестов. Первая задача — написать их."
+	python3 -m unittest discover --start-directory tests --pattern 'test_*.py' --verbose
